@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<!-- The head tag is where things that aren't actually a part of the site go
+     From metadata about the site to even the little title that shows up on the tab on chrome-->
+  <head>
+    <title>Doo doo dooo doo</title> <!--the title tag defines the little name at the top of chrome where each of the tags is represented -->
+    <style> /*--the style tag is where css goes. The css determines all of the decorative elements of the site
+    things like colors and animations all should go in the style tag */
+    /* CSS goes here */
+    body { /* this part of the css is for the entire site and not any specific part of the site*/
+      background: linear-gradient(132deg,#FF0A73,#03FFD2); /* this sets the background to a linear gradient,
+      specifically the parameters in the linear-gradient function determines that angle at which the gradient is set, and the two colors
+      in this case in hex that the gradient will change to and from*/
+      background-size: 400% 400%; /* this part of the css is here to make the gradient much bigger than the actual size of the site
+      this is done in order to make it so that the gradient moving looks like the colors are changing*/
+      text-align: center; /* this property just makes sure that all of the text on the page is aligned to the center*/
+      font-size: 40px; /* this propert just sets the font size of the text within the body tag in the html*/
+      animation: backgroundGradient 30s ease infinite; /* so animation: backgroudnGradient looks for an animation called BackgroundGradient and sets
+      the amount of time the animation will occur for (30 seconds), how the transition will occur (in this case ease menas that the gradient won't just
+      move at a constant rate but change depending on how close it is getting to one of the steps) and how many types the animation will repeat (in
+      this case an infinite amount of times)*/
+      font-family:Helvetica, Arial, sans-serif; /* font tamily is used to set the font for the entire body, by using font-family it lets me set
+      multiple options from least preferable to most preferable when it comes to choosing the font so that if the first font isn't available
+      the next one will be used until one of them works*/
+    }
+    @keyframes backgroundGradient{ /*the keyframe rull creats an animation with the name in this case BackgroundGradient */
+      /*these three set the different frame that the animation will move to
+      in this case because what is moving is the background image, I used background position */
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    h1{ /* the part of the css is for anything in the h1 tag within the html
+      in this case I...*/
+      color:white; /* changed the color to white */
+      padding:5px; /* adding some space around the text */
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: black; /* i found these two lines here https://css-tricks.com/adding-stroke-to-web-text/ that add a stroke
+      the text and change the color to blak */
+      text-decoration:line-through; /* added a horzontal line through the heading because I thought it would look cool 8/10 would do again */
+      transform:rotateZ(180deg); /* rotated it along its z axis for 180 degrees essentially flipping it*/
+    }
+    p{ /* this part of the css affects anything with a p tag
+      I added similar affects as I did with the header but added a text shadow and a border */
+      */
+      color:white;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: black;
+      text-shadow: -3px 2px white; /* the text-shadow parameters determine the horizontal position of the shadow
+      the vertical position of the shadow and the color of the shadow respectively */
+      border-style: double; /* here I added a border with the parameter double which makes the border double */
+      border-width: thick; /* i used border-width and one of the default thickness parameters to make the border thicker */
+      border-color: #C7FFCC; /* the color for the border in hex */
+      border-radius: 50px; /* border radius adds a little curve to the adges of the border to make them look more rounded
+      i figured out that after a certain point the size of the radius doesn't end up doing anything */
+    }
+    p:hover{ /* I wanted the stuff under the p tag to change when someone hovers over is so that is what this part of the css does */
+      transform:rotateX(60deg); /* specifically this rotates the text and the border 60deg along the x axis which is the one that runs through
+      the screen */
+      font-size: 45px; /* i wanted the text to change size without moving everything on the page a lot so that's why there is a
+      small change in the size of the font */
+    }
+
+    b{ /* similar to p this is for everything in the b tag */
+      font-size: 80px;  /* making the font huge */
+      letter-spacing: 40px; /* this specifically changes the amount of pixels between each of the letters which makes them look super spaced out */
+      text-shadow: 3px 2px white; /* adding a text shadow again */
+    }
+    iframe{ /* this one determines the css for the iframe tag which is where the gif is */
+      opacity: .8; /* just lowering the opacity so that the gif doesn't pop that much */
+    }
+    iframe:hover{ /* because of the way I embeded the gif from giphy it has some ulgy stuff when you hover over it
+      so I made it invisible by lowering the opacity */
+      opacity:0;
+    }
+
+
+  /* CSS STOPS here */
+    </style>
+  </head>
+<!-- HTML goes here! -->
+  <body> <!-- the body tag is where all of the html goes. This is where the content in on the site goes-->
+    <h1>O JUDGE!!</h1> <!-- the head tag is the big text on the screen-->
+    <p>o mom and dad</p> <!-- the paragraph tag is the main piece of text and is smaller than the h1 tag-->
+    <b> mom and dad</b> <!-- the b tag is similar to the paragraph tag but it just makes the text bold-->
+    <!-- the iframe tag is used put another document inside the html document in this case I embeded a gif from gihpy-->
+    <iframe src="https://giphy.com/embed/3o7btW7VDxqrhJEnqE" width="960" height="596" frameBorder="0" allowFullScreen></iframe>
+    <!-- The next two a tags are both similar so I will combine their descriptions
+    the a tag is used for links, in this case the first a tag links back to the same website while the second a tag links
+    to the next site in the chain-->
+    <!-- within both of the a tags I added a marquee tag to make the "ah" move back and forth
+    however, I wanted them to bounce around instead of just letting them move to the left or to the right or up or down
+    the width and height are the area in which the marquee will move background
+    the reason that I have a marquee inside a marquee is to make it move diagonally using behavior "alternate" and some code
+    i found here https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee-->
+    <a href="https://simbayona.github.io/web-nyu-idm/here-come-the-planes">
+    <marquee direction="up" width="1000" height="100" behavior="alternate">
+      <marquee behavior ="alternate">
+        ah
+      </marquee>
+    </marquee>
+    </a>
+    <a href="https://ashlib.github.io/web-nyu-idm/here-come-the-planes">
+    <marquee direction="down" width="1000" height="100" behavior="alternate">
+      <marquee behavior ="alternate">
+        ah
+      </marquee>
+    </marquee>
+    </a>
+
+</html>
+<!-- HTML STOPS here! -->
