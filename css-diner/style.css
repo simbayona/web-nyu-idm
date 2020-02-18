@@ -25,6 +25,11 @@ body {
   font-size: 2em;
 }
 
+div.descriptions * {
+  opacity:0
+  /* I wanted to hide all of the descriptions at first so I used this technique from Level 11 of css diner */
+}
+
 .boring-class {
   /* I used this selector for all of boring class. This would be from level 6 of css diner*/
   width: 40%;
@@ -35,6 +40,6 @@ body {
 
 p{
   font-size: 2em
-  /* here I wanted just the first part of boring-class to be larger so I selected it. This would be from level 1
+  /* here I wanted just all of the p class to be larger so I selected it. This would be from level 1
   of css diner*/
 }
