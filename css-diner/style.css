@@ -19,20 +19,22 @@ body {
 }
 
 body {
-  background-color: violet;
-  color: yellow;
+  background-color: #1ED761;
+  color: (127,127,127);
   text-align: center;
   font-size: 2em;
 }
 
-.my-fun-class {
+.boring-class {
+  /* I used this selector for all of boring class*/
   width: 40%;
   border: 2px solid forestgreen;
   display: block;
   margin: auto;
 }
 
-img {
-  width: 40%;
-  padding: 2em;
+p{
+  font-size: 2em
+  /* here I wanted just the first part of boring-class to be larger so I selected it. This would be from level 1
+  of css diner*/
 }
