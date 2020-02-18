@@ -25,7 +25,7 @@ body {
 }
 
 div.descriptions * {
-  opacity:0
+  opacity:.2
   /* I wanted to hide all of the descriptions at first so I used this technique from Level 11 of css diner */
 }
 
@@ -45,5 +45,10 @@ p{
 
 div iframe:nth-child(2):hover{
   /* here I used a technique from level 18 of css diner to select just the second iframe */
-  opacity: 0
+  opacity: 0;
+}
+
+div p:last-of-type{
+  /* the last technique I used was to select the last description to make it red */
+  color: red;
 }
