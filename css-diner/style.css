@@ -26,7 +26,7 @@ body {
 }
 
 .boring-class {
-  /* I used this selector for all of boring class*/
+  /* I used this selector for all of boring class. This would be from level 6 of css diner*/
   width: 40%;
   border: 2px solid forestgreen;
   display: block;
