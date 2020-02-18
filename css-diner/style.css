@@ -10,7 +10,6 @@ body {
   box-sizing: inherit;
 }
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
-
 @font-face {
   font-family: 'violet';
   src: url('./fonts/VioletSans-Regular.woff') format('woff');
@@ -42,4 +41,9 @@ p{
   font-size: 2em
   /* here I wanted just all of the p class to be larger so I selected it. This would be from level 1
   of css diner*/
+}
+
+div iframe:nth-child(2):hover{
+  /* here I used a technique from level 18 of css diner to select just the second iframe */
+  opacity: 0
 }
