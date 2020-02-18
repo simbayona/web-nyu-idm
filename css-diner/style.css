@@ -25,7 +25,7 @@ body {
 }
 
 div.descriptions * {
-  opacity:.2
+  opacity:.5
   /* I wanted to hide all of the descriptions at first so I used this technique from Level 11 of css diner */
 }
 
@@ -42,13 +42,26 @@ p{
   /* here I wanted just all of the p class to be larger so I selected it. This would be from level 1
   of css diner*/
 }
-
-div iframe:nth-child(2):hover{
-  /* here I used a technique from level 18 of css diner to select just the second iframe */
+div.playlists * {
   opacity: 0;
 }
+div iframe:nth-child(2):hover{
+  /* here I used a technique from level 18 of css diner to select just the second iframe */
+  opacity: 1;
+}
+div iframe:nth-child(1):hover{
+  opacity: 1;
+}
+div iframe:nth-child(3):hover{
+  opacity: 1;
+}
+div iframe:nth-child(1):active{
+  .vibin:last-of-type{
+    opacity: 1;
+  }
+}
 
-div p:last-of-type{
+.goodies:last-of-type{
   /* the last technique I used was to select the last description to make it red */
-  color: red;
+  color:red;
 }
