@@ -16,21 +16,29 @@ body {
 }
 
 body {
-  background-color: violet;
+  background-color: #004DFF;
   color: yellow;
   text-align: center;
   font-size: 2em;
 }
 
-.my-fun-class {
+.secondary-headers {
   width: 50%;
   border: 2px solid limegreen;
   display: block;
   margin: auto;
 }
-
+img {
+  width: 130%;
+  height: auto;
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
+
+/* @font-face {
+  font-family: 'newcastleRusty';
+  src: url */
+}
 }
