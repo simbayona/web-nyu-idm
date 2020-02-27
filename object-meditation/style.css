@@ -24,13 +24,15 @@ body {
 
 .secondary-headers {
   width: 50%;
-  border: 2px solid limegreen;
+  border: 2px solid white;
   display: block;
   margin: auto;
 }
-img {
-  width: 130%;
-  height: auto;
+.screen-transition {
+  object-fit: cover;
+
+  width: 100px;
+  height: 100px;
 }
 @media only screen and (max-width: 600px) {
   body {
