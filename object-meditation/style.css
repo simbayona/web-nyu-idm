@@ -21,7 +21,9 @@ body {
   text-align: center;
   font-size: 2em;
 }
-
+h1{
+  font-family: "newcastleRusty";
+}
 .secondary-headers {
   width: 50%;
   border: 2px solid white;
@@ -39,8 +41,8 @@ body {
     background-color: lightblue;
   }
 
-/* @font-face {
+ @font-face {
   font-family: 'newcastleRusty';
-  src: url */
+  src: url('assets/Newcastle Basic Rusty.woff') format('woff');
 }
 }
