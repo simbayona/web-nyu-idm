@@ -8,13 +8,6 @@ body {
   box-sizing: inherit;
 }
 
-@font-face {
-  font-family: 'violet';
-  src: url('./fonts/VioletSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   background-color: #004DFF;
   color: yellow;
@@ -22,9 +15,11 @@ body {
   font-size: 2em;
 }
 h1{
-  font-family: "newcastle-basic-rusty";
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
 }
 .secondary-headers {
+  font-family: 'Lato', sans-serif;
   width: 50%;
   border: 2px solid white;
   display: block;
@@ -40,20 +35,22 @@ h1{
   body {
     background-color: lightblue;
   }
-
-  @font-face {
+/* this is my failed experiment of adding a specific font that wasn't freely hosted on some site :c  */
+  /* @font-face { //
       font-family: 'newcastle-basic-clean';
-      src: url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle_basic_clean-webfont.woff2') format('woff2'),
-           url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle-basic-clean.woff') format('woff');
+      src: local("assets/newcastle_basic_clean-webfont.woff2") format('woff2'),
+           local("assets/newcastle-basic-clean.woff") format('woff');
       font-weight: normal;
       font-style: normal;
   }
   @font-face {
       font-family: 'newcastle-basic-rusty';
-      src: url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle_basic_rusty-webfont.woff2') format('woff2'),
-           url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle-basic-rusty.woff') format('woff');
+      src: local("assets/newcastle_basic_rusty-webfont.woff2") format('woff2'),
+           local("assets/newcastle-basic-rusty.woff") format('woff');
       font-weight: normal;
       font-style: normal;
-  }
+
+  } */
+
 
 }
