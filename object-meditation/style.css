@@ -22,7 +22,7 @@ body {
   font-size: 2em;
 }
 h1{
-  font-family: "newcastleRusty";
+  font-family: "newcastle-basic-rusty";
 }
 .secondary-headers {
   width: 50%;
@@ -34,15 +34,26 @@ h1{
   object-fit: cover;
 
   width: 100px;
-  height: 100px;
+  height: 100px
 }
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
 
- @font-face {
-  font-family: 'newcastleRusty';
-  src: url('assets/Newcastle Basic Rusty.woff') format('woff');
-}
+  @font-face {
+      font-family: 'newcastle-basic-clean';
+      src: url('newcastle_basic_clean-webfont.woff2') format('woff2'),
+           url('newcastle_basic_clean-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'newcastle-basic-rusty';
+      src: url('newcastle_basic_rusty-webfont.woff2') format('woff2'),
+           url('newcastle_basic_rusty-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
 }
