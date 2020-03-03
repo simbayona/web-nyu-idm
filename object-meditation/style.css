@@ -26,10 +26,13 @@ h1{
   margin: auto;
 }
 .screen-transition {
-  object-fit: cover;
-
-  width: 100px;
-  height: 100px
+  position: absolute;
+  justify-content: flex-start;
+  object-fit: none;
+  object-position: top;
+  width: 100%;
+  height: 200px;
+  bottom: 0px;
 }
 @media only screen and (max-width: 600px) {
   body {
