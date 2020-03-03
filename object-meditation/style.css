@@ -43,15 +43,15 @@ h1{
 
   @font-face {
       font-family: 'newcastle-basic-clean';
-      src: url('newcastle_basic_clean-webfont.woff2') format('woff2'),
-           url('newcastle_basic_clean-webfont.woff') format('woff');
+      src: url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle_basic_clean-webfont.woff2') format('woff2'),
+           url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle-basic-clean.woff') format('woff');
       font-weight: normal;
       font-style: normal;
   }
   @font-face {
       font-family: 'newcastle-basic-rusty';
-      src: url('newcastle_basic_rusty-webfont.woff2') format('woff2'),
-           url('newcastle_basic_rusty-webfont.woff') format('woff');
+      src: url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle_basic_rusty-webfont.woff2') format('woff2'),
+           url('https://simbayona.github.io/web-nyu-idm/object-meditation/assets/newcastle-basic-rusty.woff') format('woff');
       font-weight: normal;
       font-style: normal;
   }
