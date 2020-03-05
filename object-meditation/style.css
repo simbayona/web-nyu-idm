@@ -20,14 +20,13 @@ h1{
 }
 .secondary-headers {
   font-family: 'Lato', sans-serif;
-  width: 50%;
-  border: 2px solid white;
+  width: 100%;
   display: block;
   margin: auto;
 }
 .screen-transition {
   position: absolute;
-  justify-content: flex-start;
+  justify-content: flex-end;
   object-fit: none;
   object-position: top;
   width: 100%;
@@ -38,22 +37,13 @@ h1{
   body {
     background-color: lightblue;
   }
-/* this is my failed experiment of adding a specific font that wasn't freely hosted on some site :c  */
-  /* @font-face { //
-      font-family: 'newcastle-basic-clean';
-      src: local("assets/newcastle_basic_clean-webfont.woff2") format('woff2'),
-           local("assets/newcastle-basic-clean.woff") format('woff');
-      font-weight: normal;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'newcastle-basic-rusty';
-      src: local("assets/newcastle_basic_rusty-webfont.woff2") format('woff2'),
-           local("assets/newcastle-basic-rusty.woff") format('woff');
-      font-weight: normal;
-      font-style: normal;
 
-  } */
+.activity-1-buttons{
+  display: flex;
+  justify-content:center;
+  padding: inherit;
+  margin: inherit;
 
+}
 
 }
