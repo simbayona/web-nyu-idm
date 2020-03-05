@@ -8,7 +8,6 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-  <script language="JavaScript" src="main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap" rel="stylesheet">
   <title>Simon's Seeker Site</title>
@@ -23,12 +22,19 @@
   <p>Get ready to challenge yourself, feel uncomfortable, and hopefully have a great time!! </p>
 
   <p class="secondary-headers"> Choose your Challenge! </p>
+
   <div class= "activity-1-buttons">
-    <button type= "button"> Huggable </button>
-    <button type= "button"> Lovable </button>
-    <button type= "button"> Comical </button>
+    <button onclick="huggableChallenge()"> Huggable </button>
+    <button onclick="lovableChallenge()"> Lovable </button>
+    <button onclick="comicalChallenge()"> Comical </button>
   </div>
+
+  <p id="huggable" class="secondary-headers"> Your Challenge is to get a stranger to give you a hug. Be respectul :). If you can, have a friend or even another stranger record you. <p>
+  <p id="lovable" class="secondary-headers"> Your Challenge is to go up to a stranger and tell them that you love them. Don't just say it as they pass by, try and get them to stop first. If you can, have a friend or even another stranger record you. <p>
+  <p id="comical" class="secondary-headers"> Your Challenge is to go to a public place and stand some where so that a group can see and hear you. Once you are there, tell a really bad joke outloud for all to hear.  If you can, have a friend or even another stranger record you.<p>
+
   <img class="screen-transition" src="assets/paper-tear.png"></img>
+
 </body>
 
 </html>
