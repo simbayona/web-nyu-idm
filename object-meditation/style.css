@@ -56,6 +56,11 @@ p{
 }
 #timer{
   display:none;
+  position:fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 50%;
 }
 
 #lovable{
