@@ -55,7 +55,7 @@ p{
   margin: inherit;
 }
 #timer{
-  display:none;
+  /* display:none; */
   position:fixed;
   display: flex;
   justify-content: flex-end;
