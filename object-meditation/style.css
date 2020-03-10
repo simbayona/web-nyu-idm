@@ -54,14 +54,14 @@ p{
   padding: inherit;
   margin: inherit;
 }
-#timer{
-  /* display:none; */
-  position:fixed;
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  height: 50%;
-}
+   /* #timer{
+    display:none;
+    position:fixed;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 50%;
+  }  */
 
 #lovable{
   display: none;

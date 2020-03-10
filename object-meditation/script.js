@@ -45,5 +45,5 @@ $("#clock").click(function()){
     document.getElementById("timer").innerHTML = "";
     }
   }, 1000);
-  $("#timer").css("display","block");
+  // $("#timer").css("display","block");
 }
