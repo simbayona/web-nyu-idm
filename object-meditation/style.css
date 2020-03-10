@@ -54,6 +54,9 @@ p{
   padding: inherit;
   margin: inherit;
 }
+#timer{
+  display:none;
+}
 
 #lovable{
   display: none;
