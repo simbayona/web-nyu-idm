@@ -3,6 +3,9 @@
 let myAlphabet = ['A', 'B', 'C', 'D','E','F','G'];
 
 // 1. What is the length of the array?
+
+console.log(myAlphabet.length);
+
 // push your edits to github!!
 
 // 2. Write a function called myAlphabetLength which console.logs the length of the array
