@@ -9,6 +9,11 @@ console.log(myAlphabet.length);
 // push your edits to github!!
 
 // 2. Write a function called myAlphabetLength which console.logs the length of the array
+
+function myAlphabetLength(){
+  console.log(myAlphabet.length);
+}
+
 // push your edits to github!!
 
 // 3. Within the function also use an if-conditional statement that checks if the number of items within the array are less than 4
