@@ -13,10 +13,21 @@ console.log(myAlphabet.length);
 function myAlphabetLength(){
   console.log(myAlphabet.length);
 }
+myAlphabetLength();
 
 // push your edits to github!!
 
 // 3. Within the function also use an if-conditional statement that checks if the number of items within the array are less than 4
+
+function myAlphabetConditional(){
+  if(myAlphabet.length < 4){
+    console.log("There are less than 4 items in the array!")
+  } else {
+    console.log("There are 4 or more items in the array!")
+  }
+}
+myAlphabetConditional();
+
 // push your edits to github!!
 
 // 4. Declare and initialize an array called 'colors' with 5 different string values representing the names of 5 colors of your choosing
