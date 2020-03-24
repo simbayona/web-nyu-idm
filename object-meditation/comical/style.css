@@ -46,13 +46,6 @@ p{
   }
 }
 
-#activity-1-buttons{
-  margin: 2em;
-  display: flex;
-  justify-content: space-around;
-  /* padding: inherit; */
-  /* margin: inherit; */
-}
   #timer{
     display:none;
     position:fixed;
@@ -61,12 +54,3 @@ p{
     width: 50%;
     height: 50%;
   }
-#huggable{
-  display: none;
-}
-#comical{
-  display: none;
-}
-#lovable{
-  display: none;
-}

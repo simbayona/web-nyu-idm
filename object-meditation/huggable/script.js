@@ -1,10 +1,8 @@
-console.log("I'm here, I'm here!!");
+console.log("ha ha ha classic comedy");
 
 
 
-
-
-$("#clock").click(function()){
+// $("#clock").click(function()){
 // This is some code similar to what I found on w3 schools for a timer
 // I changed it up a bit so that it sets a timer a fixed time away instead of just a fixed date
 // Set the date we're counting down to
@@ -30,6 +28,5 @@ $("#clock").click(function()){
     clearInterval(x);
     document.getElementById("timer").innerHTML = "";
   }, 1000);
-}
 // $("#timer").css("display","block");
 //}
